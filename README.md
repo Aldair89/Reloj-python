@@ -13,3 +13,5 @@ Crea un botón llamado settings_button con el texto "Ajustes" que, cuando se hac
 Invoca la función get_current_time() para comenzar a mostrar la hora actualizada en la etiqueta time_label.
 
 Inicia el bucle de eventos principal con window.mainloop(), lo que permite que la interfaz gráfica del programa responda a las interacciones del usuario y actualice la hora mostrada en la etiqueta.
+
+Cuando el programa se ejecuta, muestra una ventana con la hora actual y un botón "Ajustes". Si el usuario hace clic en el botón "Ajustes", se abrirá una nueva ventana donde podrá ingresar una hora, minutos y segundos, y al hacer clic en el botón "Aplicar", la hora mostrada en la etiqueta se actualizará con el valor ingresado. Si el usuario ingresa una hora inválida, se mostrará un mensaje de error. El reloj seguirá actualizando la hora cada segundo en la ventana principal mientras esté abierta.
